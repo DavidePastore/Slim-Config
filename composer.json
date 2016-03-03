@@ -1,0 +1,32 @@
+{
+    "name": "davidepastore/slim-config",
+    "description": "A slim middleware to read configuration from different files based on hassankhan/config",
+    "keywords": ["slim","framework","middleware","config", "configuration", "php", "ini", "xml", "json", "yaml"],
+    "type": "library",
+    "authors": [
+        {
+            "name": "Davide Pastore",
+            "email": "pasdavide@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "hassankhan/config": "^0.10.0"
+    },
+    "require-dev": {
+        "slim/slim": "~3.0",
+        "phpunit/phpunit": "^4.0",
+        "scrutinizer/ocular": "~1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DavidePastore\\Slim\\Config\\": "src"
+        }
+    },
+    "license" : "GPL-2.0+",
+    "autoload-dev": {
+        "psr-4": {
+            "DavidePastore\\Slim\\Config\\Tests\\": "tests"
+        }
+    }
+}
