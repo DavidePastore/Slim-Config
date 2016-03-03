@@ -82,6 +82,10 @@ $app->post('/bar', function ($req, $res, $args) {
 $app->run();
 ```
 
+## Where are the benefits?
+
+The configuration is loaded from the filesystem only when the given route is called in the _per route_ usage. In the other case (_all routes_) the config should be general and used in the whole routes, because it's read in every request.
+
 ## Just the tip of the iceberg!
 
 You can read the [hassankhan/config][hassankhan-config] documentation [here][hassankhan-config] for more info.
