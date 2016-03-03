@@ -43,7 +43,7 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
 
     public function testConfig()
     {
-        $mw = new Config(__DIR__ . '/mocks/config.json');
+        $mw = new Config(__DIR__.'/mocks/config.json');
 
         $next = function ($req, $res) {
             return $res;
@@ -52,33 +52,33 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
         $response = $mw($this->request, $this->response, $next);
         $config = $mw->getConfig();
 
-        $this->assertEquals($config['application.name'], "configuration");
+        $this->assertEquals($config['application.name'], 'configuration');
         $expected = [
-          "host1",
-          "host2",
-          "host3"
+          'host1',
+          'host2',
+          'host3',
         ];
         $this->assertEquals($config['servers'], $expected);
     }
 
     public function testSetConfig()
     {
-        $mw = new Config(__DIR__ . '/mocks/config.json');
+        $mw = new Config(__DIR__.'/mocks/config.json');
 
         $next = function ($req, $res) {
             return $res;
         };
 
         $response = $mw($this->request, $this->response, $next);
-        $mw->setConfig(new \Noodlehaus\Config(__DIR__ . '/mocks/set_config.json'));
+        $mw->setConfig(new \Noodlehaus\Config(__DIR__.'/mocks/set_config.json'));
         $config = $mw->getConfig();
 
-        $this->assertEquals($config['application.name'], "set_configuration");
+        $this->assertEquals($config['application.name'], 'set_configuration');
     }
 
     public function testSetConfigInput()
     {
-        $expected = __DIR__ . '/mocks/config.json';
+        $expected = __DIR__.'/mocks/config.json';
         $mw = new Config($expected);
 
         $next = function ($req, $res) {

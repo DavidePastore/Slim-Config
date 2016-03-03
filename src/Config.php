@@ -7,15 +7,16 @@ namespace DavidePastore\Slim\Config;
  */
 class Config
 {
-
     /**
      * The \Noodlehaus\Config object.
+     *
      * @var \Noodlehaus\Config
      */
     protected $config;
 
     /**
      * The input for the config object.
+     *
      * @var string|array
      */
     protected $configInput;
@@ -27,7 +28,7 @@ class Config
      */
     public function __construct($configInput)
     {
-      $this->configInput = $configInput;
+        $this->configInput = $configInput;
     }
 
     /**
@@ -42,6 +43,7 @@ class Config
     public function __invoke($request, $response, $next)
     {
         $this->config = new \Noodlehaus\Config($this->configInput);
+
         return $next($request, $response);
     }
 
