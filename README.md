@@ -36,7 +36,7 @@ $container = $app->getContainer();
 // Register provider
 $container['apiConfig'] = function () {
   //Create the configuration
-  return new \DavidePastore\Slim\Validation\Validation('config.json');
+  return new \DavidePastore\Slim\Config\Config('config.json');
 };
 
 $app->get('/api/myEndPoint',function ($req, $res, $args) {
@@ -60,7 +60,7 @@ $container = $app->getContainer();
 // Register provider
 $container['config'] = function () {
   //Create the configuration
-  return new \DavidePastore\Slim\Validation\Validation('config.json');
+  return new \DavidePastore\Slim\Config\Config('config.json');
 };
 
 // Register middleware for all routes
