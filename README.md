@@ -34,16 +34,16 @@ $app = new \Slim\App();
 $container = $app->getContainer();
 
 // Register provider
-$container['apiConfig'] = function () {
+$container['config'] = function () {
   //Create the configuration
   return new \DavidePastore\Slim\Config\Config('config.json');
 };
 
 $app->get('/api/myEndPoint',function ($req, $res, $args) {
     //Here you have your configuration
-    $config = $this->apiConfig->getConfig();
-    $secret = $conf->get('security.secret');
-})->add($container->get('apiConfig'));
+    $config = $this->config->getConfig();
+    $secret = $config->get('security.secret');
+})->add($container->get('config'));
 
 $app->run();
 ```
@@ -69,13 +69,13 @@ $app->add($container->get('config'));
 
 $app->get('/foo', function ($req, $res, $args) {
   //Here you have your configuration
-  $config = $this->apiConfig->getConfig();
-  $secret = $conf->get('security.secret');
+  $config = $this->config->getConfig();
+  $secret = $config->get('security.secret');
 });
 
 $app->post('/bar', function ($req, $res, $args) {
   //Here you have your configuration
-  $config = $this->apiConfig->getConfig();
+  $config = $this->config->getConfig();
   $ttl = $config->get('app.timeout', 3000);
 });
 
