@@ -6,6 +6,8 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
+[![Build Status][ico-phpeye]][link-phpeye]
+
 
 A file configuration loader that supports PHP, INI, XML, JSON, and YML files for the Slim Framework. It internally uses [hassankhan/config](hassankhan-config).
 
@@ -111,9 +113,11 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DavidePastore/Slim-Config.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Config.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-config.svg?style=flat-square
+[ico-phpeye]: http://php-eye.com/badge/DavidePastore/Slim-Config/tested.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-config
 [link-travis]: https://travis-ci.org/DavidePastore/Slim-Config
 [link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config
 [link-downloads]: https://packagist.org/packages/davidepastore/slim-config
+[link-phpeye]: http://php-eye.com/package/DavidePastore/Slim-Config
