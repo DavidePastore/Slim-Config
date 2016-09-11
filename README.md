@@ -10,7 +10,7 @@
 [![PSR2 Conformance][ico-styleci]][link-styleci]
 
 
-A file configuration loader that supports PHP, INI, XML, JSON, and YML files for the Slim Framework. It internally uses [hassankhan/config](hassankhan-config).
+A file configuration loader that supports PHP, INI, XML, JSON, and YML files for the Slim Framework. It internally uses [hassankhan/config][hassankhan-config].
 
 ## Install
 
