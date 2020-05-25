@@ -5,8 +5,6 @@
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
-
-[![Build Status][ico-phpeye]][link-phpeye]
 [![PSR2 Conformance][ico-styleci]][link-styleci]
 
 
@@ -114,7 +112,6 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DavidePastore/Slim-Config.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Config.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-config.svg?style=flat-square
-[ico-phpeye]: http://php-eye.com/badge/DavidePastore/Slim-Config/tested.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/53088130/shield
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-config
@@ -122,5 +119,4 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 [link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config
 [link-downloads]: https://packagist.org/packages/davidepastore/slim-config
-[link-phpeye]: http://php-eye.com/package/DavidePastore/Slim-Config
 [link-styleci]: https://styleci.io/repos/53088130/
