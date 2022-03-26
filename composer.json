@@ -15,7 +15,7 @@
     },
     "require-dev": {
         "slim/slim": "~3.0",
-        "phpunit/phpunit": "^4.0",
+        "phpunit/phpunit": ">4.8.27",
         "scrutinizer/ocular": "~1.1"
     },
     "autoload": {
