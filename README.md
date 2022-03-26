@@ -1,7 +1,7 @@
 # Slim Framework Config
 
 [![Latest version][ico-version]][link-packagist]
-[![Build Status][ico-travis]][link-travis]
+[![Build Status][ico-github-actions]][link-github-actions]
 [![Coverage Status][ico-scrutinizer]][link-scrutinizer]
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
@@ -108,14 +108,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 [hassankhan-config]: https://github.com/hassankhan/config
 [ico-version]: https://img.shields.io/packagist/v/DavidePastore/Slim-Config.svg?style=flat-square
-[ico-travis]: https://travis-ci.org/DavidePastore/Slim-Config.svg?branch=master
+[ico-github-actions]: https://github.com/DavidePastore/Slim-Config/workflows/Continuous%20Integration/badge.svg?branch=master
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DavidePastore/Slim-Config.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Config.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-config.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/53088130/shield
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-config
-[link-travis]: https://travis-ci.org/DavidePastore/Slim-Config
+[link-github-actions]: https://github.com/DavidePastore/Slim-Config/actions?query=workflow%3A%22Continuous+Integration%22
 [link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config
 [link-downloads]: https://packagist.org/packages/davidepastore/slim-config
