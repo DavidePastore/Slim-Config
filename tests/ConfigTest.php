@@ -10,7 +10,7 @@ use Slim\Http\Response;
 use Slim\Http\Uri;
 use DavidePastore\Slim\Config\Config;
 
-class ConfigTest extends \PHPUnit_Framework_TestCase
+class ConfigTest extends \PHPUnit\Framework\TestCase
 {
     /**
      * PSR7 request object.
@@ -29,7 +29,7 @@ class ConfigTest extends \PHPUnit_Framework_TestCase
     /**
      * Run before each test.
      */
-    public function setUp()
+    protected function setUp(): void
     {
         $uri = Uri::createFromString('https://example.com:443/foo/bar');
         $headers = new Headers();
