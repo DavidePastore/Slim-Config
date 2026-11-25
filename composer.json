@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": ">=5.5.0",
+        "php": "^7.2 || ^8.0",
         "hassankhan/config": "^0.10.0"
     },
     "require-dev": {
