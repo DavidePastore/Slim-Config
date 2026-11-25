@@ -18,7 +18,7 @@ Via Composer
 $ composer require davidepastore/slim-config
 ```
 
-Requires Slim 3.0.0 or newer.
+Requires PHP 7.2 or newer (including PHP 8.x) and Slim 3.0.0 or newer.
 
 ## Usage
 
