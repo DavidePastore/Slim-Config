@@ -108,14 +108,14 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 [hassankhan-config]: https://github.com/hassankhan/config
 [ico-version]: https://img.shields.io/packagist/v/DavidePastore/Slim-Config.svg?style=flat-square
-[ico-github-actions]: https://github.com/DavidePastore/Slim-Config/workflows/Continuous%20Integration/badge.svg?branch=master
+[ico-github-actions]: https://img.shields.io/github/actions/workflow/status/DavidePastore/Slim-Config/continuous-integration.yml?branch=master&style=flat-square
 [ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/DavidePastore/Slim-Config.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/davidepastore/Slim-Config.svg?style=flat-square
 [ico-downloads]: https://img.shields.io/packagist/dt/davidepastore/slim-config.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/53088130/shield
 
 [link-packagist]: https://packagist.org/packages/davidepastore/slim-config
-[link-github-actions]: https://github.com/DavidePastore/Slim-Config/actions?query=workflow%3A%22Continuous+Integration%22
+[link-github-actions]: https://github.com/DavidePastore/Slim-Config/actions/workflows/continuous-integration.yml
 [link-scrutinizer]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config/code-structure
 [link-code-quality]: https://scrutinizer-ci.com/g/DavidePastore/Slim-Config
 [link-downloads]: https://packagist.org/packages/davidepastore/slim-config
